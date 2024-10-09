@@ -27,7 +27,8 @@ built using the [Apache Maven](https://maven.apache.org/) build tool:
 
 1. For use in other Java/Scala Applications, build by executing `mvn clean install`.
 2. For the Command Line Interface or Swing GUI, build by executing `mvn clean package`.
-   * The associated .jar files will be in the /target folder within /csv-validator-cmd for the Command Line Interface or /csv-validator-ui for the Swing GUI. To execute, do `java -jar <FILE_NAME>.jar`
+
+If you want to build the whole project, run `mvn clean package` on the project's root directory. The project's .zip file will be located in /csv-validator-distribution/target.
 
 Maven Artifacts
 ===============
